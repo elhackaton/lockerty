@@ -1,0 +1,46 @@
+<ion-view view-title="Locks">
+
+  <ion-content>
+    <ion-list can-swipe="true" >
+      <!--FAVORITAS-->
+      <div class="item item-divider">
+        <span>
+          <i class="icon ion-star energized" ></i>
+          Favoritos
+        </span>
+      </div>
+      <ion-item ng-repeat="lock in vm.favorites" ng-click="vm.edit(lock)" ng-class="{'text-center':lock.changing === true}">
+        <span class=" item-icon-left " ng-if="lock.changing !== true">
+          <i class="icon" ng-class="lock.locked ? 'ion-locked balanced' : 'ion-unlocked energized'" ></i>
+          {{lock.name}}
+        </span>
+        <span ng-if="lock.changing === true" class="text-center">
+          <ion-spinner icon="ripple" class="spinner-balanced "></ion-spinner>
+        </span>
+        <ion-option-button ng-class="lock.locked ? 'button-energized' : 'button-balanced'" ng-click="vm.changeState(lock)">
+          {{lock.locked ? 'Open' : 'Close'}}
+        </ion-option-button>
+      </ion-item>
+      <!--TODAS-->
+      <div class="item item-divider">
+        <span>
+          <i class="icon ion-navicon " ></i>
+          Todas
+        </span>
+      </div>
+      <ion-item ng-repeat="lock in vm.locks" ng-click="vm.edit(lock)" ng-class="{'text-center':lock.changing === true}">
+        <span class=" item-icon-left " ng-if="lock.changing !== true">
+          <i class="icon" ng-class="lock.locked ? 'ion-locked balanced' : 'ion-unlocked energized'"></i>
+          {{lock.name}}
+        </span>
+        <span ng-if="lock.changing === true" class="text-center">
+          <ion-spinner icon="ripple" class="spinner-balanced "></ion-spinner>
+        </span>
+        <ion-option-button ng-class="lock.locked ? 'button-energized' : 'button-balanced'" ng-click="vm.changeState(lock)">
+          {{lock.locked ? 'Open' : 'Close'}}
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+
+</ion-view>

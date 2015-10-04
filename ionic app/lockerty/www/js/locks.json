@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "560facaff86e0bc800c84b4e",
+    "_type": "lock",
+    "name": "Padres",
+    "locked": true,
+    "allowed": [
+      "560facaf4b25f087a6f6e502",
+      "560facaf75b724cca05a4f9c",
+      "560facaf5d16327c779586ca"
+    ]
+  },
+  {
+    "_id": "560facafa572c964780116f5",
+    "_type": "lock",
+    "name": "Oficina HackLab ",
+    "locked": false,
+    "allowed": [
+      "560facaf822b8a71117a6d60",
+      "560facafb0cf4aeec8a7b9f5"
+    ]
+  },
+  {
+    "_id": "560faddddddddddddasdfasdfd5",
+    "_type": "false",
+    "name": "Escuela de Artes",
+    "locked": false,
+    "allowed": [
+      "560facaf822b8a71117a6d60",
+      "560facafb0cf4aeec8a7b9f5"
+    ]
+  },
+  {
+    "_id": "560facafe534ca005781aaf9",
+    "_type": "lock",
+    "name": "Nela",
+    "locked": true,
+    "allowed": [
+      "560facaface2565117c1599b",
+      "560facaf84e6b4d01afefd20",
+      "560facaf5d4db69b13189113"
+    ]
+  },
+  {
+    "_id": "560facafe125610512789936",
+    "_type": "lock",
+    "name": "Sookie",
+    "locked": true,
+    "allowed": [
+      "560facaf4d811bb60443f669",
+      "560facafe58096c9466ee568"
+    ]
+  }
+]

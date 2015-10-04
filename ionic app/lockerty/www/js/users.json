@@ -1,0 +1,232 @@
+[
+  {
+    "_id": "560fadadd839de1adcd22f70",
+    "_type": "user",
+    "name": "Lee",
+    "devices": [
+      "560fadad5d104052926ef073",
+      "560fadad4b8ec320332a7afb",
+      "560fadad921c41da5c23e0c3",
+      "560fadad870a0f662a6a90c9",
+      "560fadad368342db4bdddaa2"
+    ],
+    "allowed": [
+      "560fadadc79178d196568d6c",
+      "560fadad3cb7a86c0786abf4",
+      "560fadad6d2b05196c495416",
+      "560fadad18eabd67996c3dee",
+      "560fadad15b6eaa79c498273",
+      "560fadaded144cdb87461324"
+    ]
+  },
+  {
+    "_id": "560fadad1e5779e3dd5d41cb",
+    "_type": "user",
+    "name": "Rae",
+    "devices": [
+      "560fadad1235b3dd319a06dc",
+      "560fadadaee9f20b5b539b17",
+      "560fadad83020c00f966ec1c",
+      "560fadad4793197a9d744291",
+      "560fadad3f09cf7e41ad0952"
+    ],
+    "allowed": [
+      "560fadadfa1bd4dcff031aff",
+      "560fadadb8528205e6600302",
+      "560fadad8b2cc9ecc252dfe4",
+      "560fadadee08fa21b457cd0c",
+      "560fadada3f940b703c35db3",
+      "560fadad179a22e7e310dcba",
+      "560fadad23af83fb931fd337"
+    ]
+  },
+  {
+    "_id": "560fadadc674918608c0eecd",
+    "_type": "user",
+    "name": "Hopkins",
+    "devices": [
+      "560fadad4f2b6c2a60e64784",
+      "560fadad896dfb30c8fea23b",
+      "560fadad1cf34ccb8383cadb",
+      "560fadade073351970761cd7",
+      "560fadadcb519c354c4fb5c7",
+      "560fadad39d462ef6384eba1"
+    ],
+    "allowed": [
+      "560fadad0fe80f5b642027c5",
+      "560fadade5314ad5afcfa9dd",
+      "560fadad08439cc350ad3886",
+      "560fadad852be371e1caa3e8",
+      "560fadada2b19f61b0fe95ca"
+    ]
+  },
+  {
+    "_id": "560fadad9243b18bcde57a2e",
+    "_type": "user",
+    "name": "Buchanan",
+    "devices": [
+      "560fadad9c5c0140d6b9e1f0",
+      "560fadade5560c2961e099b9",
+      "560fadada157814b184d8361",
+      "560fadad0f4b95b128c0045a",
+      "560fadad70f14ec43e045520",
+      "560fadad8ea90c8fd13dbb32",
+      "560fadad29f3bd236bd2bdad"
+    ],
+    "allowed": [
+      "560fadad84e2129e269fd119",
+      "560fadad654b1dcbc4481b88",
+      "560fadad56dafb4d35ac2252",
+      "560fadadb0fd72c419714e26",
+      "560fadad3f04830a4cb3fe38",
+      "560fadad94b4af2289fb63b1",
+      "560fadad1ef901829317044d"
+    ]
+  },
+  {
+    "_id": "560fadad7f829ec6669f853b",
+    "_type": "user",
+    "name": "Floyd",
+    "devices": [
+      "560fadad75e4f6112c23fe4c",
+      "560fadadba8bd28db805d062",
+      "560fadad7b40ca3118f39195",
+      "560fadaddf71113cf266fbea",
+      "560fadad408aad48a55edf53",
+      "560fadad7d8e51770d203dc2",
+      "560fadad9bdb8eefc23a2d1e"
+    ],
+    "allowed": [
+      "560fadad51f732e7a997747c",
+      "560fadadbab65d815507477c",
+      "560fadadeaa2b6b5e90c3eaf",
+      "560fadad41c28b3bd347c056",
+      "560fadad6c995a4c04071d47"
+    ]
+  },
+  {
+    "_id": "560fadad55bc999d62af42d4",
+    "_type": "user",
+    "name": "Mcfarland",
+    "devices": [
+      "560fadad055a57043d017a8c",
+      "560fadad124fc28b94c0f260",
+      "560fadad2628321f1b9a4027",
+      "560fadad2aa852865c9df8a9",
+      "560fadadb3867ea50918fbe6",
+      "560fadad633f7f176dc53dd4",
+      "560fadadf97a446f82d1a0a6"
+    ],
+    "allowed": [
+      "560fadad3f5b20e9650d681b",
+      "560fadad68d7450e7e1f1514",
+      "560fadad3855d5850b4882e2",
+      "560fadad5f963bcb01ba9ea2",
+      "560fadad22264c894ad8c17b",
+      "560fadad7a9d1538be46a822"
+    ]
+  },
+  {
+    "_id": "560fadad9491f86db011811c",
+    "_type": "user",
+    "name": "Elba",
+    "devices": [
+      "560fadad15b825f08426f92e",
+      "560fadad2a71c8d0da63e14c",
+      "560fadad624598ce55f346cd",
+      "560fadadcc79ddbaf165dbcd",
+      "560fadadd056acf7641f98b1",
+      "560fadadf76de3df75b4afd3"
+    ],
+    "allowed": [
+      "560fadad3ec196f07ba9e920",
+      "560fadad7887a1cffe1c53ad",
+      "560fadad042079b591f50ff5",
+      "560fadadaffe0989cc213410",
+      "560fadad0bc9e45e98d1e78a"
+    ]
+  },
+  {
+    "_id": "560fadad16d3241acfe335b9",
+    "_type": "user",
+    "name": "Hatfield",
+    "devices": [
+      "560fadadd11b3467afd978b3",
+      "560fadad5fcdc0e2d317d097",
+      "560fadadacb51ebea3e62c64",
+      "560fadadc16a40ac7180a025",
+      "560fadad60aeb77295b2575c",
+      "560fadad590ed59560884022"
+    ],
+    "allowed": [
+      "560fadadf5e8be85eede8420",
+      "560fadad230bab8a90c77bc2",
+      "560fadadb857d008336e404c",
+      "560fadad483ca3fc50a94932",
+      "560fadaddaab8aceb526280f",
+      "560fadad7b7825e1a0e71aa8"
+    ]
+  },
+  {
+    "_id": "560fadadf25db50a304d3ea7",
+    "_type": "user",
+    "name": "Lynn",
+    "devices": [
+      "560fadadf79aa06ff0f0346f",
+      "560fadad68bef6298e09728b",
+      "560fadada31ac05e1ddff044",
+      "560fadad0624d7950a5ab2b6",
+      "560fadad04940899ae08d8ba"
+    ],
+    "allowed": [
+      "560fadade6b1a8ebaea1fabd",
+      "560fadad38f0b0a7b02d7c39",
+      "560fadaddd81d28d7bcc67fd",
+      "560fadad88a110d94157693d",
+      "560fadade107cb9f7c024982",
+      "560fadad8ea65e2afe04ac52",
+      "560fadad0b7b6e9f2edb2b3e"
+    ]
+  },
+  {
+    "_id": "560fadad254a546355c8b349",
+    "_type": "user",
+    "name": "Kristie",
+    "devices": [
+      "560fadadbfaaafda1038436c",
+      "560fadadde8692da88582921",
+      "560fadad51ffaa11e499744e",
+      "560fadad1a7e9313ae6a67ab",
+      "560fadade56a51c58e8098bd"
+    ],
+    "allowed": [
+      "560fadaded25f50b37245aa6",
+      "560fadad04a9abfbe14c3ed3",
+      "560fadad5d23b5a252781433",
+      "560fadadd8827c71beabeacd",
+      "560fadad74318989b1573ab8",
+      "560fadad2e0ec0a2d11c9e2c",
+      "560fadad5c7e97edeed2031f"
+    ]
+  },
+  {
+    "_id": "560fadad2b3598d96db821ef",
+    "_type": "user",
+    "name": "Emilia",
+    "devices": [
+      "560fadad48b5729721e25237",
+      "560fadadc11e8f6b606b0734",
+      "560fadad2c7bcea3d7c694ce",
+      "560fadad14f953c5c5857fc6",
+      "560fadadb2aa6d4d15037eb7"
+    ],
+    "allowed": [
+      "560fadadad13eb0eb1fa0328",
+      "560fadadbc8c1e6cdcacfb3f",
+      "560fadad9b9b42562fb98cbe",
+      "560fadadfcb19aa3bbe3e0f8",
+      "560fadad737d7484c101fffe",
+      "560fadad9271b52d1a30304e"
+    ]
+  }
+]

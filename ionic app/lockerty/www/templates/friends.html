@@ -1,0 +1,27 @@
+<ion-view view-title="Friends">
+  <ion-content>
+    <!--<label class="item item-input">-->
+      <!--<span class="input-label" >Buscar amigo:</span>-->
+      <!--<input type="text" ng-model="vm.search">-->
+    <!--</label>-->
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" ng-model="vm.search" placeholder="Search">
+      </label>
+
+    <ion-list can-swipe="true" ng-show="vm.search.length > 2">
+      <ion-item ng-repeat="friend in vm.friends|filter:vm.search" class="item-thumbnail-left">
+        {{friend.name}}
+        <ion-option-button class="button-positive"
+                           ng-click="share(item)">
+          Lock
+        </ion-option-button>
+        <ion-option-button class="button-info"
+                           ng-click="edit(item)">
+          Unlock
+      </ion-item>
+    </ion-list>
+    </div>
+  </ion-content>
+</ion-view>

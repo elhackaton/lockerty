@@ -1,0 +1,22 @@
+<ion-view view-title="Inicio">
+  <ion-content>
+
+    <div class="list card" >
+      <ion-item ng-click="vm.changeState(vm.lock)" ng-class="{'text-center':vm.lock.changing === true}">
+
+        <span class=" item-icon-left " ng-if="vm.lock.changing !== true">
+          <i class="icon ion-home" ></i>
+          {{vm.lock.name}}
+        </span>
+        <span class=" item-icon-right " ng-if="vm.lock.changing !== true">
+          <i class="icon" ng-class="vm.lock.locked ? 'ion-locked balanced' : 'ion-unlocked energized'"></i>
+          <!--{{vm.lock.name}}-->
+        </span>
+        <span ng-if="vm.lock.changing === true" class="text-center">
+          <ion-spinner icon="ripple" class="spinner-balanced "></ion-spinner>
+        </span>
+      </ion-item>
+    </div>
+
+  </ion-content>
+</ion-view>

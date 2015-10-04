@@ -1,0 +1,70 @@
+<ion-view view-title="Cerradura">
+  <ion-content>
+    <!--<div class="card">-->
+      <!--<div class="item item-text-wrap">-->
+        <!--<h2>{{vm.lock.name}}</h2>-->
+        <!--<span class=" item-icon-left " >-->
+          <!--<i class="icon" ng-class="vm.lock.locked ? 'ion-locked balanced' : 'ion-unlocked energized'"></i>-->
+          <!--{{lock.name}}-->
+        <!--</span>-->
+      <!--</div>-->
+    <!--</div>-->
+    <div class="list card" >
+      <ion-item ng-click="vm.changeState(vm.lock)" ng-class="{'text-center':vm.lock.changing === true}">
+
+        <span class=" item-icon-left " ng-if="vm.lock.changing !== true">
+          <i class="icon ion-home" ></i>
+          {{vm.lock.name}}
+        </span>
+        <span class=" item-icon-right " ng-if="vm.lock.changing !== true">
+          <i class="icon" ng-class="vm.lock.locked ? 'ion-locked balanced' : 'ion-unlocked energized'"></i>
+          <!--{{vm.lock.name}}-->
+        </span>
+        <span ng-if="vm.lock.changing === true" class="text-center">
+          <ion-spinner icon="ripple" class="spinner-balanced "></ion-spinner>
+        </span>
+      </ion-item>
+    </div>
+
+    <div class="list card" >
+      <div class="item item-divider">
+        Usuarios autorizados
+      </div>
+
+      <ion-item ng-repeat="user in vm.lock.allowed" ng-click="user.blocked ? user.blocked = null : user.blocked = true" style="max-height: 105px;" >
+        <span class="item item-avatar" >
+            <img src="res/{{user.name}}.jpg" alt="Foto perfil {{user.name}}" style="width:40px"/>
+            <h2>{{user.name}}</h2>
+            <p class="button button-clear " ng-class="user.social === 'twitter' ? 'button-calm' : 'button-positive' ">{{user.social}}</p>
+
+          <span class="item-icon-right">
+            <i class="icon " ng-class="user.blocked ? 'ion-minus-circled assertive': 'ion-ios-checkmark balanced'"></i>
+          </span>
+
+        </span>
+
+
+        <!--<span class=" item-icon-right " >-->
+          <!--<i class="icon" ng-class="lock.locked ? 'ion-locked balanced' : 'ion-unlocked energized'"></i>-->
+          <!--{{lock.name}}-->
+        <!--</span>-->
+        <!--<span class="item " >-->
+          <!--&lt;!&ndash;<img src="res/alo.jpg" alt="" style="width:40px"/>&ndash;&gt;-->
+          <!--{{user.name}}-->
+          <!--<i class="icon icon-left" ></i>-->
+        <!--</span>-->
+        <!--<span class="item-avatar  " >-->
+          <!--&lt;!&ndash;<i class="icon ion-home" ></i>&ndash;&gt;-->
+          <!--<img src="res/{{user.name}}.jpg" alt="" class="" style="width:40px; margin-left:30px"/>-->
+          <!--<span style="margin-left:30px">{{user.name}}</span>-->
+        <!--</span>-->
+        <!--<span class=" item-icon-right " >-->
+          <!--<i class="icon ion-ios-checkmark" ></i>-->
+          <!--{{lock.name}}-->
+        <!--</span>-->
+
+      </ion-item>
+
+    </div>
+  </ion-content>
+</ion-view>

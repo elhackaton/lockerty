@@ -1,4 +1,4 @@
-Proyecto de  Ejemplo
+Lockerty
 ====================
 
 Componentes del Equipo

@@ -1,0 +1,35 @@
+<ion-view view-title="Locks">
+  <ion-content>
+
+    <div class="list card" can-swipe="true">
+      <ion-item ng-repeat="lock in vm.locks" ng-click="vm.changeState(lock)">
+
+        <span class=" item-icon-left " >
+          <i class="icon ion-home" ></i>
+          {{lock.name}}
+        </span>
+        <span class=" item-icon-right " >
+          <i class="icon" ng-class="lock.locked ? 'ion-locked balanced' : 'ion-unlocked energized'"></i>
+          {{lock.name}}
+        </span>
+      </ion-item>
+      <div class="item item-divider">
+        favorites
+      </div>
+      <ion-item ng-repeat="lock in vm.locks" ng-click="vm.changeState(lock)">
+        <span class=" item-icon-left " >
+          <i class="icon ion-home" ></i>
+          {{lock.name}}
+        </span>
+        <span class=" item-icon-right " >
+          <i class="icon" ng-class="lock.locked ? 'ion-locked balanced' : 'ion-unlocked energized'"></i>
+          {{lock.name}}
+        </span>
+      </ion-item>
+
+    </div>
+
+
+
+  </ion-content>
+</ion-view>

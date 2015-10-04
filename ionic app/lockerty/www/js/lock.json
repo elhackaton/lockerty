@@ -1,0 +1,14 @@
+
+  {
+    "_id": "560facafafe0075016e298d8",
+    "_type": "lock",
+    "name": "Casa",
+    "locked": false,
+    "allowed": [
+      {"name":"Alo", "id":"560facaf35991c73d63370b4", "social":"Twitter"},
+      {"name":"Rafa", "id":"560facafcb82bcdc5af847e9", "social":"Facebook"},
+      {"name":"Carlos", "id":"560facaf2b2bcd0027c6067a", "social":"Facebook"},
+      {"name":"Oscar", "id":"560facaf175eec3cfb5f47d0", "social":"Twitter", "blocked":true},
+      {"name":"Nela", "id":"560facaf627a75ab0a675b6", "social":"Facebook"}
+    ]
+  }
