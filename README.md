@@ -26,6 +26,10 @@ Estado del desarrollo actual
 ----------------------------
 Prototipo funcional. Utiliza OAuth de Facebook para el mantenimiento de sesiones, relacionando usuarios de Facebook con dispositivos (cerrojos).
 
+![Front](http://i.imgur.com/sHfVeaX.jpg)
+
+![Back](http://i.imgur.com/EFEEqRu.jpg)
+
 
 Especificaciones Técnicas
 --------------------------
