@@ -4,27 +4,36 @@ Lockerty
 Componentes del Equipo
 ---------------------
 
-(Máximo 4 integrantes por grupo)
-
-+ Nombre del integrante #1 (Desarrollo y Sistemas)
-+ Nombre del integrante #4 (Sistemas)
-+ Nombre del integrante #2 (Diseñador)
-+ Nombre del integrante #3 (Maquetadora)
++ Álvaro Quirós López (Desarrollo frontend)
++ Carlos Carmona Alcántara (Maker y desarrollo)
++ Oscar Bautista Torres (Diseñador y UX)
++ Rafael Prats Vieira (Desarrollo backend)
 
 Descripción
 -------------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lockerty es el producto que permite aplicar autentificación digital en el mundo físico. Sin necesidad de adaptar las puertas ni cambiar las llaves.
+
+El repositorio alberga tres subproyectos separados en carpetas:
+
++ arduino: Programa en Node.js para programar un Arduino YUN, comunicandose mediante Socket.IO con los servicios de Lockerty.
++ bluemix: API escrita en Node.js que interactúa con servicios de IBM Bluemix.
++ ionic app: Apps para iOS y Android utilizando Angular.JS e Ionic Framework
+
+Utiliza tus mismas cuentas de internet en la seguridad AFK.
+
 
 Estado del desarrollo actual
 ----------------------------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Prototipo funcional. Utiliza OAuth de Facebook para el mantenimiento de sesiones, relacionando usuarios de Facebook con dispositivos (cerrojos).
+
 
 Especificaciones Técnicas
 --------------------------
-+ Lenguajes de programación utilizados
-+ Sistema de bases de datos
-+ Etc...
++ Javascript
++ Cloudant NoSQL
++ IBM Bluemix
++ Arduino YUN
 
 Licencia
 ---------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+GNU-GPL versión 2.
