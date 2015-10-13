@@ -4,10 +4,10 @@ Lockerty
 Componentes del Equipo
 ---------------------
 
-+ Álvaro Quirós López (Desarrollo frontend) @alodev
-+ Carlos Carmona Alcántara (Maker y desarrollo) @ccarmona  
-+ Oscar Bautista Torres (Diseñador y UX) @chispes
-+ Rafael Prats Vieira (Desarrollo backend) @raprav 
++ Álvaro Quirós López (Desarrollo frontend) [@alodev](https://twitter.com/aloDev)
++ Carlos Carmona Alcántara (Maker y desarrollo) [@ccarmona](https://twitter.com/ccarmona)
++ Oscar Bautista Torres (Diseñador y UX) [@Chispes](https://twitter.com/Chispes)
++ Rafael Prats Vieira (Desarrollo backend) [@raprav](https://twitter.com/raprav)
 
 Descripción
 -------------
